@@ -7,6 +7,7 @@
 <body>
 <h1><%= "Hello World!" %>
 </h1>
+<span>This is simple ui</span>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
