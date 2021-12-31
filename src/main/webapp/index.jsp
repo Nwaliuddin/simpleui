@@ -5,11 +5,13 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
-<span>This is simple ui</span>
-<span>second text</span>
+
+<%@ include file="Menu.html"%>
+<div style="background-image: url("Taman-Bayan-Ariel-View.jpeg");">
+<h1><%= "Rental House System"%></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
+<a href="RegisterFormServlet">Register Form Servlet</a>
+
 </body>
 </html>
